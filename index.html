@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Sono:wght@800&display=swap" rel="stylesheet">
+</head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/braces-asterisk.svg" width="30" height="30" class="d-inline-block align-top my-icon" alt="">
+                <text class="navbar-text"> About me<text>
+              </a>
+        </div>
+      </nav>
+    <!-- content -->
+    <div class="container">
+        <!-- prewiev -->
+        <div class="row flex-row align-items-center col-left p-0 counter">
+            <div class="col-lg-4" style="padding: 2rem;">
+                <!-- <img src="images/ava.jpg" class="center-block  img-responsive img-circle img-thumbnail thumb96 " style="max-height: 380px;" alt="..."> -->
+                <img src="images/ava.jpg" class="img-fluid rounded mx-auto d-block"  alt="..." style="max-height: 380px;">
+                <!-- <div class="card">
+                    <img src="images/e65dda5ef444a6550c619883704783e0.jpg" alt="Profile Picture" class="img-fluid rounded-circle mx-auto d-block" style="max-height: 380px;">
+                    </div> -->
+            </div>
+            <div class="col-lg-8 p-4">
+                <div class="about-text">
+                    <h3 class="">Egorov Vitaly Alexeyevich</h3> 
+                    <h5 class="" style="padding-left: 3px;" >Student</h5>
+                    <div class="row about-list">
+                        <div class="media icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-envelope-fill my-icon" viewBox="0 0 16 16">
+                                <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/>
+                            </svg>
+                            <label class="icon-text" for="">becef38767@galcake.com</label>
+                        </div>
+                        <div class="media icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-discord my-icon" viewBox="0 0 16 16">
+                                <path d="M13.545 2.907a13.227 13.227 0 0 0-3.257-1.011.05.05 0 0 0-.052.025c-.141.25-.297.577-.406.833a12.19 12.19 0 0 0-3.658 0 8.258 8.258 0 0 0-.412-.833.051.051 0 0 0-.052-.025c-1.125.194-2.22.534-3.257 1.011a.041.041 0 0 0-.021.018C.356 6.024-.213 9.047.066 12.032c.001.014.01.028.021.037a13.276 13.276 0 0 0 3.995 2.02.05.05 0 0 0 .056-.019c.308-.42.582-.863.818-1.329a.05.05 0 0 0-.01-.059.051.051 0 0 0-.018-.011 8.875 8.875 0 0 1-1.248-.595.05.05 0 0 1-.02-.066.051.051 0 0 1 .015-.019c.084-.063.168-.129.248-.195a.05.05 0 0 1 .051-.007c2.619 1.196 5.454 1.196 8.041 0a.052.052 0 0 1 .053.007c.08.066.164.132.248.195a.051.051 0 0 1-.004.085 8.254 8.254 0 0 1-1.249.594.05.05 0 0 0-.03.03.052.052 0 0 0 .003.041c.24.465.515.909.817 1.329a.05.05 0 0 0 .056.019 13.235 13.235 0 0 0 4.001-2.02.049.049 0 0 0 .021-.037c.334-3.451-.559-6.449-2.366-9.106a.034.034 0 0 0-.02-.019Zm-8.198 7.307c-.789 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.45.73 1.438 1.613 0 .888-.637 1.612-1.438 1.612Zm5.316 0c-.788 0-1.438-.724-1.438-1.612 0-.889.637-1.613 1.438-1.613.807 0 1.451.73 1.438 1.613 0 .888-.631 1.612-1.438 1.612Z"/>
+                            </svg>
+                            <label class="icon-text" for="">vito#9749</label>
+                        </div>
+                        <div class="media icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-telephone-inbound-fill my-icon " viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z"/>
+                            </svg>
+                            <label class="icon-text" for="">+7 (960) 720-77-47</label>
+                        </div>
+                        <div class="media icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-geo-alt-fill my-icon" viewBox="0 0 16 16">
+                                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                </svg>
+                                <label class="icon-text" for="">Ivanovo, Russia</label>
+                        </div>
+                    </div>
+                    <div class="row" >
+                        <div class="col-3 icons-pad">
+                            <a href="https://github.com/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github my-icon" viewBox="0 0 16 16">
+                                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-3 icons-pad">
+                            <a href="https://web.telegram.org/z/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-telegram my-icon" viewBox="0 0 16 16">
+                                    <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-3 icons-pad">
+                            <a href="https://ru-ru.facebook.com/">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-facebook my-icon" viewBox="0 0 16 16">
+                                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="col-3 icons-pad">
+                            <a href="https://twitter.com/?lang=ru">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-twitter my-icon" viewBox="0 0 16 16">
+                                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- social rating -->
+        <!-- <div class=" bg-white  p-3 " > -->
+            <div class="row flex-row align-items-center counter">
+                <div class="col-4 col-lg-3">
+                    <div class="text-center">
+                        <h6 class="text-center about-text" style="font-size: 25pt;">Social rating</h6>
+                        <p class="text-center ">333</p>
+                    </div>
+                </div>
+                <div class="col-8 col-lg-9">
+                    <div class="text-center">
+                        <div class="progress mb-1" style="height: 30px;" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 24%; height: 30px; font-size: 13pt;">front-end</div>
+                          </div>
+                          <div class="progress mb-1" style="height: 30px;" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 24%; font-size: 13pt;">back-end</div>
+                          </div>
+                          <div class="progress mb-1 design-block"  height: 30px;" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar" style="width: 5%; font-size: 13pt;"></div>designer 5%
+                          </div>
+                    </div>
+                </div>
+            </div>
+        <!-- </div> -->
+        <!-- text -->
+        <div class="lorem-ipsum">
+            <h2 class="text-center" style="font-size: 25pt; color: #343A40; text-shadow: 2px 2px 2px rgba(0,0,0,0.1);">Main Section</h2>
+            <h4 class="text">SubSection 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porttitor felis quis nulla consectetur rhoncus. Phasellus bibendum nulla eu est laoreet placerat. In varius, enim vel laoreet tempus, ex nibh tincidunt urna, et lacinia libero mi et quam. Nam volutpat nec massa vel tempus. Nunc sagittis massa varius nibh fermentum aliquam. Integer eget lectus maximus, lacinia nulla eget, dignissim nisl. Phasellus pellentesque nisi et tincidunt convallis. Duis sit amet arcu ut enim viverra fringilla. Ut sagittis ex nisl, euismod viverra turpis rhoncus et. Proin eu dignissim nulla. In elit dui, fringilla eu placerat sit amet, accumsan et justo. In ut urna euismod sapien tristique finibus et id velit. Proin at tempor felis. Aliquam in laoreet ligula. Sed consequat ex lacus, nec pharetra sapien porttitor luctus.
+
+Sed quis justo sed urna posuere sodales. Sed fringilla consectetur ipsum. Maecenas facilisis sem eu condimentum faucibus. Donec consequat ligula odio, non finibus nunc varius quis. Nam fermentum tellus augue, ut dictum ex luctus eget. Pellentesque mattis finibus fringilla. Phasellus mollis urna magna, sit amet scelerisque est accumsan eget. Suspendisse pretium elit augue, ut porttitor urna gravida aliquam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+Donec at nunc orci. In ornare mauris quis efficitur congue. Proin placerat lobortis lorem vel egestas. Duis a vulputate purus. Donec quis quam in odio viverra ornare. Integer ac sodales massa. Etiam convallis congue interdum. Fusce suscipit tristique arcu, eget gravida dui elementum blandit. Donec ullamcorper placerat mauris. Nunc quis urna sed dolor tincidunt viverra.</p>
+            <h4 class="text">SubSection 2</h4>
+    <p>viverra libero eu hendrerit tincidunt. Curabitur et est nisl. Phasellus convallis nunc ac ipsum vehicula rutrum. Fusce sed massa a odio pellentesque fermentum sit amet a odio. Mauris finibus felis a odio sodales, vel facilisis purus eleifend. Vestibulum sed pharetra tellus. Aliquam erat volutpat. Cras nulla neque, varius hendrerit posuere sagittis, pharetra a nisi. Sed placerat sem leo, nec placerat massa facilisis vel. Sed faucibus, nulla vel feugiat facilisis, neque eros laoreet erat, nec posuere libero ipsum sed dui. Integer consectetur a justo nec dictum. Morbi elementum orci sit amet dui mollis, nec egestas felis euismod. Nullam sit amet sem in lorem scelerisque pharetra a sit amet purus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer hendrerit consequat elit, vel viverra velit fermentum in. Donec fringilla suscipit turpis.
+
+Proin mattis nibh id erat rutrum fringilla. Etiam vestibulum mattis quam eget mattis. Quisque a odio erat. Proin nec cursus ex. Vivamus lobortis egestas dolor, at facilisis velit. Mauris pellentesque enim erat, finibus efficitur nisl sodales quis. Duis lacinia, libero quis ultrices vehicula, urna metus pretium dolor, ut maximus magna est finibus ligula. Sed mollis vitae orci sit amet rhoncus. Nam suscipit magna felis. Donec tincidunt non quam non imperdiet. Duis justo quam, tempor eget eros et, viverra sodales orci. Nulla vitae dolor eros. Praesent eu gravida diam. Aenean nec dolor ultricies, ultricies est at, eleifend metus. In eget nisl nunc. 
+   </p>
+        </div>
+        <!-- timeline -->
+            <div class="row counter">
+                <div class="col-md-12">
+                    <div class="card ">
+                        <div class="card-body">
+                            <h6 class="card-title" style="color: #343A40;
+                            text-shadow: 2px 2px 2px rgba(0,0,0,0.1);">Timeline</h6>
+                            <div id="content">
+                                <ul class="timeline bg-body-tertiary">
+                                    <li class="event" data-date="21.11.2001">
+                                        <h3 class="dark-color">Родился</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </li>
+                                    <li class="event" data-date="2003">
+                                        <h3 class="dark-color">Пошел в садик</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </li>
+                                    <li class="event" data-date="2007">
+                                        <h3 class="dark-color">Пошел в школу</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </li>
+                                    <li class="event" data-date="2021">
+                                        <h3 class="dark-color">Поступил в ИГХТУ</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+ </div>
+   
+       <footer class="bg-body-tertiary navbar-fixed-bottom text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="text-center p-3 bg-body-tertiary" >
+          © 2023 Copyright:
+          <a class="text-dark" href="#">aboutme</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </body>
+</html>
